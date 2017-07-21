@@ -1,0 +1,5 @@
+services:
+    vortexgin.morph.manager:
+        class: Vortexgin\MorphAnalyzerBundle\Manager\MorphManager
+        arguments:
+            - @service_container
