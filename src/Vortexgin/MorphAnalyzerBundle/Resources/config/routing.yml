@@ -2,4 +2,4 @@ vortexgin_morph_analyzer_analyze:
     path:     /analyze
     defaults: { _controller: VortexginMorphAnalyzerBundle:Default:analyze }
     requirements:
-        _method: POST
+        _method: GET
